@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>前端入门</title>
+
+    <style>
+      .filter-form div,button{
+        display:inline-block
+      }
+      .trStyle th{
+        background:yellow
+        /* text-align:center */
+      }
+
+      .spanRight{
+       
+        margin-left:370px
+        /* float:right */
+    
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>前端入门</h1>
+
+    <div>
+      <div class="title">数据筛选</div>
+    </div>
+
+    <!-- 常见的自闭合标签（input,br,img,link） -->
+    <input type="text/" />
+    <br />
+    <img src="" alt="" />
+    <link rel="stylesheet.css" href="" />
+
+    <!-- 块级元素与行内元素 -->
+
+    <div>机构</div>
+    <input type="text" />
+    <button>搜索</button>
+    <div>测试</div>
+
+    <div class="filter-info">
+      <div class="title">数据清洗</div>
+
+      <div class="filter-form">
+        <div>
+          <!-- 内容2-1 -->
+          <span>机构：</span>
+          <input type="text"/>
+        </div>
+        <div>
+          <!-- 内容2-2 -->
+          <span>操作人：</span>
+          <input type="text"/>
+        </div>
+        <div>
+          <!-- 内容2-3 -->
+          <button style=background:yellow>搜索</button>
+          <button>重置</button>
+        </div>
+      </div>
+  </div>
+
+    <br><br>
+    <div>
+      <table>
+        <tr class="trStyle">
+          <th>序号</th>
+          <th>编码</th>
+          <th>机构</th>
+          <th>操作人</th>
+          <th>操作时间</th>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td>P001</td>
+          <td>西南配送中心</td>
+          <td>机器人001</td>
+          <td>2020/09/08 16：32</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>P002</td>
+          <td>西南配送中心</td>
+          <td>机器人002</td>
+          <td>2020/09/08 16：32</td>
+        </tr>
+
+        <tr>
+          <td>3</td>
+          <td>P003</td>
+          <td>西南配送中心</td>
+          <td>机器人003</td>
+          <td>2020/09/08 16：32</td>
+        </tr>
+      </table>
+    </div>
+
+    <br><br>
+
+    <div>
+      <div>
+        <!-- 内容一 -->
+        <div>查询物流</div>
+        <div>
+          <input type="text" placeholder="机构：">
+          <input type="text" placeholder="收件人：">
+          <button>搜索</button>
+          <button>检查</button>
+        </div>
+      </div>
+
+      <div>
+        <!-- 内容二 -->
+        <table border="1">
+          <thead>
+            <th>序号</th>
+            <th>编码</th>
+            <th>机构</th>
+            <th>操作人</th>
+            <th>操作时间</th>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>P001</td>
+              <td>西南配送中心</td>
+              <td>机器人001</td>
+              <td>2020/09/08 16：32</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>P002</td>
+              <td>西南配送中心</td>
+              <td>机器人002</td>
+              <td>2020/09/08 16：32</td>
+            </tr>
+    
+            <tr>
+              <td>3</td>
+              <td>P003</td>
+              <td>西南配送中心</td>
+              <td>机器人003</td>
+              <td>2020/09/08 16：32</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div>
+        <!-- 内容三 -->
+          <span class="spanRight">3</span>
+      </div>
+  </body>
+</html>
